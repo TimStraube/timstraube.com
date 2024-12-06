@@ -1,3 +1,1 @@
 # timstraube.com
-
-Personal webpage
