@@ -27,33 +27,22 @@
 		More bits :)
 	</h1>
 
-	<div style="display: flex;
-	justify-content: center;
-	">
-	    <a href="https://www.linkedin.com/in/tim-straube-48737a294/" target="_blank" id="link-button">
-		<img src="./Bilder/Linkdin.png" alt="LinkedIn" id="logo">
-	    </a>
-	    <a href="https://github.com/TimStraube" target="_blank" id="link-button">
-		<img src="Bilder/Github.webp" alt="Discord" id="logo">
-	    </a>
-	    <a href="https://X.com/Tim_Straube" target="_blank" id="link-button">
-		<img src="Bilder/X.jpg" alt="X" id="logo">
-	    </a>
-	    <a href="https://bsky.app/profile/timstraube.bsky.social" target="_blank" id="link-button">
-		<img src="Bilder/Bluesky.png" alt="Bluesky" id="logo">
-	    </a>
-	    <a href="https://www.youtube.com/@TimStraube" target="_blank" id="link-button">
-		<img src="Bilder/YouTube.png" alt="YouTube" id="logo">
-	    </a>
-	    <style>
-	    a img {
-			width: 50px;
-			color: black;
-			padding: 4px;
-			text-decoration: none; 
-			display: inline-block;
-	    }
-	    </style>
+	<div style="display: flex; justify-content: center;">
+		<a href="https://www.linkedin.com/in/tim-straube-48737a294/" target="_blank" id="link-button">
+			<img src="./Bilder/Linkdin.png" alt="LinkedIn" id="logo">
+		</a>
+		<a href="https://github.com/TimStraube" target="_blank" id="link-button">
+			<img src="Bilder/Github.webp" alt="Discord" id="logo">
+		</a>
+		<a href="https://X.com/Tim_Straube" target="_blank" id="link-button">
+			<img src="Bilder/X.jpg" alt="X" id="logo">
+		</a>
+		<a href="https://bsky.app/profile/timstraube.bsky.social" target="_blank" id="link-button">
+			<img src="Bilder/Bluesky.png" alt="Bluesky" id="logo">
+		</a>
+		<a href="https://www.youtube.com/@TimStraube" target="_blank" id="link-button">
+			<img src="Bilder/YouTube.png" alt="YouTube" id="logo">
+		</a>
 	</div>
 </main>
 <footer>
@@ -76,6 +65,7 @@
 		font-family: 'EB Garamond';
 		min-height: 100vh;
 	}
+
 	header {
 	}
 
@@ -90,38 +80,48 @@
 		flex: 1;
 	}
 
-h1 {
-    text-align: center;
-    padding-top: 2%;
-}
-p {
-    padding-right: 35%;
-    padding-left: 35%;
-}
-@media only screen and (max-width: 500px) {
-    p {
-	padding: 0;
-    }
-}
-@media only screen and (max-width: 500px) {
-    p {
-	font-family: 'EB Garamond';
-	padding-right: 5%;
-	padding-left: 5%;
-    }
-}
 
-html, body {
-}
-@media only screen and (max-width: 500px) {
-    #carousel div img {
-	width: 300px;
-	
-	transition: width 400ms;
-	-webkit-user-drag: none;
-	box-shadow: rgb(38, 57, 77) 0px 20px 50px -10px;
-	border-radius: 10px;
-    }
-}  
+	a img {
+		width: 50px;
+		color: black;
+		padding: 4px;
+		text-decoration: none; 
+		display: inline-block;
+	}
+
+	h1 {
+		text-align: center;
+		padding-top: 2%;
+	}
+
+	p {
+		padding-right: 35%;
+		padding-left: 35%;
+	}
+
+	@media only screen and (max-width: 500px) {
+		p {
+		padding: 0;
+		}
+	}
+
+	@media only screen and (max-width: 500px) {
+		p {
+		font-family: 'EB Garamond';
+		padding-right: 5%;
+		padding-left: 5%;
+		}
+	}
+
+	@media only screen and (max-width: 500px) {
+		#carousel div img {
+		width: 300px;
+		
+		transition: width 400ms;
+		-webkit-user-drag: none;
+		box-shadow: rgb(38, 57, 77) 0px 20px 50px -10px;
+		border-radius: 10px;
+		}
+	}  
 </style>
 </html>   
