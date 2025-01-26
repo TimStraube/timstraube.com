@@ -1,0 +1,91 @@
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: white;
+    overflow-x: hidden;
+    font-family: 'EB Garamond';
+    font-size: 16px;
+    min-height: 100vh;
+}
+
+footer {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 5%;
+    padding-right: 5%;
+    font-size: 20px;
+}
+
+main {
+    flex: 1;
+    font-size: 16px;
+}
+
+a {
+    text-align: center;
+    display: block;
+    font-size: 20px;
+}
+
+a img {
+    width: 50px;
+    color: black;
+    padding: 4px;
+    text-decoration: none; 
+    display: inline-block;
+}
+
+h1 {
+    text-align: center;
+    padding-top: 2%;
+    font-size: 30px;
+}
+
+p {
+    padding-right: 35%;
+    padding-left: 35%;
+    font-size: 20px;
+}
+
+.image-grid {
+    margin-top: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(420px, 1fr));
+    gap: 10px;
+}
+
+.image-grid img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+@media only screen and (max-width: 500px) {
+    p {
+    padding: 0;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    p {
+    font-family: 'EB Garamond';
+    padding-right: 5%;
+    padding-left: 5%;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    #carousel div img {
+    width: 300px;
+    
+    transition: width 400ms;
+    -webkit-user-drag: none;
+    box-shadow: rgb(38, 57, 77) 0px 20px 50px -10px;
+    border-radius: 10px;
+    }
+}  
